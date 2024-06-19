@@ -4,6 +4,4 @@ $list_to_sort: john anna zoe kim felicia carrie;
 $list_sorted: sort($list_to_sort);
 
 // Print sorted list in debug output
-@each $item in $list_sorted {
-    @debug $item;
-}
+@debug join($list_sorted, ' ');

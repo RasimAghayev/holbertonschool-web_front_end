@@ -1,0 +1,9 @@
+$list_to_sort: john anna zoe kim felicia carrie;
+
+// Sort the list alphabetically
+$list_sorted: sort($list_to_sort);
+
+// Print sorted list in debug output
+@each $item in $list_sorted {
+    @debug $item;
+}

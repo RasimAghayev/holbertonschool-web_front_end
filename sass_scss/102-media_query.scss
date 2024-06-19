@@ -5,14 +5,10 @@ h1 {
     font-size: $h1-font-size;
 }
 
-@function multiply-px($value) {
-    @return (960px - math.unit(320px * $value));
-}
-
 @for $i from 0 through 2 {
     @media screen and (max-width: (960px - 320px * $i)) {
         h1 {
-            font-size: 18px - 2* $i;
+            font-size: $h1-font-size - 2* ($i+1);
 
             @if $i==2 {
                 &.small {

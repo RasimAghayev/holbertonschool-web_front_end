@@ -48,3 +48,7 @@ $string-b: to-lower-case($string-b + unquote(""));
 }
 
 @debug sort($list_to_sort, $sort-order);
+
+$list_to_sort: bob anna sylvain john ludo colin patrick;
+
+@debug sort($list_to_sort, $sort-order);

@@ -5,9 +5,6 @@
 
   ## 0. Reboot styling
   </summary>
-  
-
-## 0. Reboot styling
 
 From this HTML:
 

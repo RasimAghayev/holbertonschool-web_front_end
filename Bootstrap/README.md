@@ -1053,7 +1053,11 @@ With this HTML: (one Bootstrap template example)
 
 Create the custom stylesheet ``` 6-styles.css ``` to match this layout.
 
-![Alt text](/Bootstrap/image/readme.md.0.jpg?raw=true "Optional Title")
+![Alt text](/Bootstrap/image/readme.md.6.1.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/readme.md.6.2.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/6-index.gif?raw=true "Optional Title")
 
 
 ### Requirements:

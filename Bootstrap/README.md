@@ -216,55 +216,30 @@ For all cells of all rows:
   <summary>Please review your task manually with the following checklist</summary>
   
 - [ ] File exists
-
 - [ ] HTML structure is the same as the one provided
-
 - [ ] No extra styling (in-line, in the head and/or a CSS file)
-
 - [ ] Cells have class p-2
-
 - [ ] Cells “Primary” have class bg-primary
-
 - [ ] Cells “Success” have class bg-success
-
 - [ ] Cells “Danger” have class bg-danger
-
 - [ ] Cells “Warning” have class bg-warning
-
 - [ ] All cells (or top container) have class text-white
-
 - [ ] All cells (or top container) have class text-center
-
 - [ ] First line: all cells have class col-lg
-
 - [ ] Second line: all cells have class col-sm
-
 - [ ] Third line: first cell has class col-lg or col-lg-2
-
 - [ ] Third line: second cell has class col-lg-4
-
 - [ ] Third line: last cell has class col-lg-6
-
 - [ ] Fourth line: all cells have class col
-
 - [ ] Fourth line: Screen >= 1200px: Primary -> Success -> Danger -> Warning
-
 - [ ] Fourth line: Screen between 992px and 1200px: Warning -> Primary -> Success -> Danger
-
 - [ ] Fourth line: Screen between 768px and 992px: Danger -> Warning -> Primary -> Success
-
 - [ ] Fourth line: Screen <= 768px: Success -> Danger -> Warning -> Primary
-
 - [ ] Fifth line: all cells have class col-md-2 or col-md with the second cell with offset-md-8 or justify-content-between in the div.row
-
 - [ ] Fifth line: Screen >= 768px: display like 2 columns on each side of the screen
-
 - [ ] Fifth line: Screen < 768px: display like 2 lines
-
 - [ ] Last line: all cells have class col-md-2 or col-md
-
 - [ ] Last line: space between the first cell and the middle cell is 2 times bigger than the space between the last cell and middle cell -> class offset-md-4 in the middle cell and offset-md-2 in the last cell
-
 - [ ] Final result is the same as screenshots and GIF
 </details>
 
@@ -491,5 +466,177 @@ Behaviors/styles:
     - [ ] div containing table has class table-responsive-lg
     - [ ] table has classes table, table-hover and table-dark
     - [ ] Final result is the same as screenshots and GIF
+    </details>
+</details>
+
+
+<details>
+  <summary> 
+
+  ## 3. Cards
+  </summary>
+
+From this HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Holberton - Web Stack - Bootstrap</title>
+        <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>Coding</div>
+                        <img src="https://via.placeholder.com/450x200" />
+                        <div>
+                            <h5>HTML</h5>
+                            <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p>
+                            <button data-toggle="modal" data-target="#playModal">Play with</button>
+                        </div>
+                        <div>40h</div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>Coding</div>
+                        <img src="https://via.placeholder.com/450x200" />
+                        <div>
+                            <h5>CSS</h5>
+                            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>
+                            <button data-toggle="modal" data-target="#playModal">Play with</button>
+                        </div>
+                        <div>35h</div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>Coding</div>
+                        <img src="https://via.placeholder.com/450x200" />
+                        <div>
+                            <h5>Javascript</h5>
+                            <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.</p>
+                            <button data-toggle="modal" data-target="#playModal">Play with</button>
+                        </div>
+                        <div>70h</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="playModal" tabindex="-1" role="dialog" aria-labelledby="playModal" aria-hidden="true">
+            <div role="document">
+                <div>
+                    <div>
+                        <h5 id="exampleModalLabel">Play with CodePen</h5>
+                        <button type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div>
+                        <p>
+                            CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. 
+                            It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
+                        </p>
+                        <p>
+                            It was founded in 2012 by full-stack developers Alex Vazquez and Tim Sabat and front-end designer Chris Coyier.
+                            Its employees work remotely, rarely all meeting together in person. 
+                        </p>
+                        <p>
+                            CodePen is one of the largest communities for web designers and developers to showcase their coding skills, with an estimated 330,000 registered users and 14.16 million monthly visitors.
+                        </p>
+
+                        <form>
+                            <div>
+                                <h5>Connect</h5>
+                            </div>
+                            <div>
+                                <label for="username">Username</label>
+                                <div>
+                                    <input type="text" id="username" />
+                                </div>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <div>
+                                    <input type="password" id="password" />
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit">Connect</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+```
+
+
+Build this responsive web page:
+
+![Alt text](/Bootstrap/image/readme.md.3.1.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/readme.md.3.2.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/3-index.gif?raw=true "Optional Title")
+
+### Repo:
+
+- GitHub repository: ``` holbertonschool-web_front_end ```
+- Directory: ``` Bootstrap ```
+- File: ``` 3-index.html ```
+
+    <details>
+    <summary>Please review your task manually with the following checklist</summary>
+    
+    - [ ] File exists
+    - [ ] HTML structure is the same as the one provided
+    - [ ] No extra styling (in-line, in the head and/or a CSS file)
+    - [ ] First div has class container-lg
+    - [ ] First div has class p-5
+    - [ ] div div has class row
+    - [ ] All div in div div.row have classes col-sm-4 or col-sm
+    - [ ] All div in div div.row have classes mt-4
+    - [ ] Inside all div.col-sm-4, first div has class card
+    - [ ] All “Coding” div have class card-header
+    - [ ] All img in card have class card-img-top
+    - [ ] All div.card have a div with class card-body
+    - [ ] All div.card-body h5 have class card-title
+    - [ ] All div.card-body p have class card-text
+    - [ ] All div.card-body button have classes btn and btn-danger
+    - [ ] All div.card-body button have attribute data-toggle="modal"
+    - [ ] All div.card-body button have attribute data-target="#playModal"
+    - [ ] All div.card have a div.card-footer (for duration information)
+    - [ ] Second main div has class modal
+    - [ ] div.modal has the first div with class modal-dialog and modal-dialog-centered
+    - [ ] Inside div.modal-dialog, the first div has class modal-content
+    - [ ] div.modal-content has as direct children a div.modal-header
+    - [ ] div.modal-header h5 has class modal-title
+    - [ ] div.modal-content has as direct children a div.modal-body
+    - [ ] div.modal-body form has classes border-top and pt-3
+    - [ ] All div.modal-body form div has class form-group
+    - [ ] All div.modal-body form div with input have class row
+    - [ ] All div.modal-body form label have class col-form-label
+    - [ ] All div.modal-body form label have class col-sm-X
+    - [ ] All div.modal-body form .form-group div that contains an input have class col-sm-X (sum with the label.col-sm-X should be equal to 12)
+    - [ ] All div.modal-body form .form-group input have class form-control
+    - [ ] Last div.modal-body form div has class text-right or d-flex and flex-row-reverse or ml-auto
+    - [ ] div.modal-body form div button has classes btn and btn-danger
+    - [ ] Final result is the same as screenshots and GIF
+
     </details>
 </details>

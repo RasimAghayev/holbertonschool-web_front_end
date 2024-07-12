@@ -428,10 +428,10 @@ From this HTML:
 
 Build this responsive web page:
 
-![gif](/Bootstrap/image/r2-index.gif?raw=true "Optional Title")
+![gif](/Bootstrap/image/r2-index.gif?raw=true "Gif anime")
 
 
-![png](/Bootstrap/image/readme.md.2.png?raw=true "Optional Title")
+![png](/Bootstrap/image/readme.md.2.png?raw=true "png img")
 
 ### Requirements:
 

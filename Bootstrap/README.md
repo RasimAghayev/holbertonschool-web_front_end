@@ -594,6 +594,26 @@ Build this responsive web page:
 
 ![Alt text](/Bootstrap/image/3-index.gif?raw=true "Optional Title")
 
+### Requirements:
+
++ You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
++ You can not change the HTML structure - only adding classes is allowed
+
+### Behaviors/styles:
+
++ The first div is a container with a break at 992px and padding of 3rem
+    + Inside, card is in row until 576px where it will switch to column
+    + Each card has a spacing of 1.5rem on top
+    + The text “Coding” is a card header
+    + Language name (card title) and description (card text) are inside a card body
+    + Duration in hour is a card footer
+    + Also, the button “Play with” has the “danger” layout and should open a modal
++ The second div is the modal:
+    + Centered vertically and horizontally
+    + The form has a border on top and a padding on top of 1rem:
+        + Each items of the form are grouped
+        + The final rendering of the form must be the same as the screen (label on the left, color style, etc..)
+
 ### Repo:
 
 - GitHub repository: ``` holbertonschool-web_front_end ```
@@ -636,6 +656,452 @@ Build this responsive web page:
     - [ ] All div.modal-body form .form-group input have class form-control
     - [ ] Last div.modal-body form div has class text-right or d-flex and flex-row-reverse or ml-auto
     - [ ] div.modal-body form div button has classes btn and btn-danger
+    - [ ] Final result is the same as screenshots and GIF
+
+    </details>
+</details>
+
+
+<details>
+  <summary> 
+
+  ## 4. Bob Dylan
+  </summary>
+
+From this HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Holberton - Web Stack - Bootstrap</title>
+        <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Bob Dylan</h1>
+
+            <ul>
+                <li>
+                    <a>Introduction</a>
+                </li>
+                <li>
+                    <a>Discography</a>
+                </li>
+            </ul>
+            <div>
+
+                <div>
+                    <p>
+                        Bob Dylan (born Robert Allen Zimmerman; May 24, 1941) is an American singer-songwriter, author, and visual artist who has been a major figure in popular culture for more than fifty years. 
+                    </p>
+                    <p>
+                        Much of his most celebrated work dates from the 1960s, when songs such as "Blowin' in the Wind" (1963) and "The Times They Are a-Changin'" (1964) became anthems for the civil rights movement and anti-war movement. 
+                        His lyrics during this period incorporated a wide range of political, social, philosophical, and literary influences, defied pop-music conventions and appealed to the burgeoning counterculture.
+                    </p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>
+                            <a>Bob Dylan <em>(1962)</em></a>
+                            <div>
+                                <p>
+                                    Bob Dylan is the debut studio album by American singer-songwriter Bob Dylan, released on March 19, 1962 by Columbia Records. Produced by Columbia's legendary talent scout John H. Hammond, who signed Dylan to the label, the album features folk standards, plus two original compositions, "Talkin' New York" and "Song to Woody".
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a>The Freewheelin' Bob Dylan <em>(1963)</em></a>
+                            <div>
+                                <p>
+                                    The Freewheelin' Bob Dylan is the second studio album by American singer-songwriter Bob Dylan, released on May 27, 1963 by Columbia Records. Whereas his self-titled debut album Bob Dylan had contained only two original songs, Freewheelin' represented the beginning of Dylan's writing contemporary words to traditional melodies. Eleven of the thirteen songs on the album are Dylan's original compositions. The album opens with "Blowin' in the Wind", which became an anthem of the 1960s, and an international hit for folk trio Peter, Paul & Mary soon after the release of Freewheelin'. The album featured several other songs which came to be regarded as among Dylan's best compositions and classics of the 1960s folk scene: "Girl from the North Country", "Masters of War", "A Hard Rain's a-Gonna Fall" and "Don't Think Twice, It's All Right".
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a>The Times They Are a-Changin' <em>(1964)</em></a>
+                            <div>
+                                <p>
+                                    The Times They Are a-Changin' is the third studio album by American singer-songwriter Bob Dylan, released on January 13, 1964 by Columbia Records. Whereas his previous albums Bob Dylan and The Freewheelin' Bob Dylan consisted of original material among cover songs, Dylan's third album was the first to feature only original compositions. The album consists mostly of stark, sparsely arranged ballads concerning issues such as racism, poverty, and social change. The title track is one of Dylan's most famous; many feel that it captures the spirit of social and political upheaval that characterized the 1960s.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a>Another Side of Bob Dylan <em>(1964)</em></a>
+                            <div>
+                                <p>
+                                    Another Side of Bob Dylan is the fourth studio album by American singer and songwriter Bob Dylan, released on August 8, 1964 by Columbia Records.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+```
+
+
+Build this responsive web page:
+
+![Alt text](/Bootstrap/image/readme.md.4.1.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/readme.md.4.2.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/readme.md.4.3.png?raw=true "Optional Title")
+
+![Alt text](/Bootstrap/image/4-index.gif?raw=true "Optional Title")
+
+
+### Requirements:
+
++ You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
++ You can not change the HTML structure - only adding classes is allowed
+
+### Behaviors/styles:
+
++ Body background is dark
++ All elements are inside a div container with a break at 960px, background color light and a padding of 1rem
++ h1 has a margin bottom and top of 1.5rem
++ ul is a tabs navigation with the first item active by default
++ The div after the ul is the container of tabs content with a background of color white and padding of 1rem
++ The switch between tab contents is animated with a fade
++ In the tab “Discography”:
+    + The list of discs has a grouped layout
+    + Each disc name has a link that extends or collapses description
+
+### Repo:
+
+- GitHub repository: ``` holbertonschool-web_front_end ```
+- Directory: ``` Bootstrap ```
+- File: ``` 4-index.html ```
+
+    <details>
+    <summary>Please review your task manually with the following checklist</summary>
+    
+    - [ ] File exist
+    - [ ] HTML structure is the same as the one provided
+    - [ ] No extra styling (in-line, in the head and/or a CSS file)
+    - [ ] body has class bg-dark
+    - [ ] Top div has class container-lg
+    - [ ] Top div has classes p-3 and bg-light
+    - [ ] h1 has classes mt-4 and mb-4 or my-4
+    - [ ] ul has classes nav and nav-tabs
+    - [ ] ul has attribute role="tablist"
+    - [ ] All ul li have class nav-item
+    - [ ] All ul li a have class nav-link
+    - [ ] First ul li a have class active
+    - [ ] All ul li a have attributes data-toggle="tab", role="tab" and href="#XXX" (referencing the right section)
+    - [ ] div just after the ul has class tab-content
+    - [ ] div just after the ul has classes bg-white and p-3
+    - [ ] All div.tab-content div have classes tab-pane and fade
+    - [ ] All div.tab-content div have attributes role="tabpanel" and id="XXX" (same as the a href of the nav)
+    - [ ] First div.tab-content div has classes show and active
+    - [ ] div.tab-content div.tab-pane ul has class list-group or accordion list-unstyled
+    - [ ] All div.tab-content div.tab-pane ul li have class list-group-item or card
+    - [ ] All div.tab-content div.tab-pane ul li a have attributes type="button", data-toggle="collapse" and data-target="#XXX" (link to the right description div)
+    - [ ] All div.tab-content div.tab-pane ul li div have class collapse
+    - [ ] All div.tab-content div.tab-pane ul li div have attribute data-parent="XXX" (linked to the parent container)
+    - [ ] Collapse and expend behavior is working like the GIF
+    - [ ] Final result is the same as screenshots and GIF
+
+    </details>
+</details>
+
+
+
+<details>
+  <summary> 
+
+  ## 5. Show/Hide - screen size
+  </summary>
+
+From this HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Holberton - Web Stack - Bootstrap</title>
+        <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Small title</h1>
+        <h1>Big title</h1>
+
+        <div>
+            <div>Left</div>
+            <div>Middle</div>
+            <div>Right</div>
+        </div>
+
+    </body>
+</html>
+```
+
+Build this responsive web page:
+
+![Alt text](/Bootstrap/image/5-index.gif?raw=true "Optional Title")
+
+### Requirements:
+
++ You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes
++ You can not change the HTML structure - only adding classes is allowed
+
+### Behaviors/styles:
+
++ Big title is displayed only for width screen > 768px
++ Small title is displayed only for width screen <= 768px
++ first div should:
+    + be centered as container and take the full width when the width of the screen <= 768px
+    + have “info color” background
+    + have some padding on the 4 directions
+    + have borders of the “info color” and rounded
++ “Left div” should:
+    + be aligned on the left
+    + have light text color
+    + have light border on the bottom and right
+    + have some padding on the 4 directions
++ “Middle div” should:
+    + be aligned in the center
+    + have light text color
+    + have light border on the bottom, left and right
+    + have some padding on the 4 directions
+    + have shadow
+    + disappear when the width of the screen <= 768px
++ “Right div” should:
+    + be aligned on the right
+    + have light text color
+    + have light border on the bottom and left
+    + have some padding on the 4 directions
+
+### Repo:
+
+- GitHub repository: ``` holbertonschool-web_front_end ```
+- Directory: ``` Bootstrap ```
+- File: ``` 5-index.html ```
+
+    <details>
+    <summary>Please review your task manually with the following checklist</summary>
+    
+    - [ ] File exists
+    - [ ] HTML structure is the same as the one provided
+    - [ ] No extra styling (in-line, in the head and/or a CSS file)
+    - [ ] h1 “Small title” has classes d-block and d-md-none
+    - [ ] h1 “Big title” has classes d-none and d-md-block
+    - [ ] Top div has class container-md
+    - [ ] Top div has classes bg-info and border-info
+    - [ ] Top div has classes rounded, text-light and p-2
+    - [ ] Top div has classes d-flex and justify-content-between
+    - [ ] All div.container-md div have classes border-bottom and p-X
+    - [ ] First div.container-md div has class border-right
+    - [ ] Last div.container-md div has class border-left
+    - [ ] Middle div.container-md div has classes border-right, border-left and shadow
+    - [ ] Middle div.container-md div has classes d-none and d-md-block
+    - [ ] Final result is the same as screenshots and GIF
+
+    </details>
+</details>
+
+
+
+<details>
+  <summary> 
+
+  ## 6. Overwrite CSS
+  </summary>
+
+With this HTML: (one Bootstrap template example)
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Holberton - Web Stack - Bootstrap</title>
+        <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="6-styles.css">
+    </head>
+    <body>
+
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="#">Features</a>
+                <a class="p-2 text-dark" href="#">Enterprise</a>
+                <a class="p-2 text-dark" href="#">Support</a>
+                <a class="p-2 text-dark" href="#">Pricing</a>
+            </nav>
+            <a class="btn btn-outline-primary" href="#">Sign up</a>
+        </div>
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Pricing</h1>
+            <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+
+        <div class="container">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                        <small class="d-block mb-3 text-muted">© 2017-2018</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Cool stuff</a></li>
+                            <li><a class="text-muted" href="#">Random feature</a></li>
+                            <li><a class="text-muted" href="#">Team feature</a></li>
+                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                            <li><a class="text-muted" href="#">Another one</a></li>
+                            <li><a class="text-muted" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Resource</a></li>
+                            <li><a class="text-muted" href="#">Resource name</a></li>
+                            <li><a class="text-muted" href="#">Another resource</a></li>
+                            <li><a class="text-muted" href="#">Final resource</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Team</a></li>
+                            <li><a class="text-muted" href="#">Locations</a></li>
+                            <li><a class="text-muted" href="#">Privacy</a></li>
+                            <li><a class="text-muted" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+```
+
+
+Create the custom stylesheet ``` 6-styles.css ``` to match this layout.
+
+![Alt text](/Bootstrap/image/readme.md.0.jpg?raw=true "Optional Title")
+
+
+### Requirements:
+
++ You are not allow to define any styling in the head or inline of the HTML
++ You can not change the HTML
+
+### New styles:
+
++ btn-primary has as background color set to #E0003C and #BC1340 for hover/focus/active
++ btn-outline-primary has text and border color set to #E0003C
++ a link (no matter which color forced) has text color set to #E0003C normally, in hover and in focus
++ Card (card container, but also header/footer) has border color set to #E0003C and radius to 1rem
++ .text-muted has text color set to #8C8C8C
+
+### Repo:
+
+- GitHub repository: ``` holbertonschool-web_front_end ```
+- Directory: ``` Bootstrap ```
+- File: ``` 6-styles.css ```
+
+    <details>
+    <summary>Please review your task manually with the following checklist</summary>
+    
+    - [ ] File exists
+    - [ ] .btn-primary is redefined
+    - [ ] .btn-primary has property color: #FFFFFF;
+    - [ ] .btn-primary has property background-color: #E0003C;
+    - [ ] .btn-primary has property border-color: #E0003C;
+    - [ ] .btn-primary:hover, .btn-primary:focus and .btn-primary:active are redefined
+    - [ ] .btn-primary:hover, .btn-primary:focus and .btn-primary.focus have properties: color: #FFFFFF; background-color: #bc1340; border-color: #bc1340;
+    - [ ] .btn-outline-primary is redefined
+    - [ ] .btn-outline-primary has property color: #E0003C;
+    - [ ] .btn-outline-primary has property border-color: #E0003C;
+    - [ ] .btn-outline-primary:hover is redefined
+    - [ ] .btn-outline-primary:hover has properties color: #FFFFFF; background-color: #E0003C; border-color: #E0003C;
+    - [ ] a.text-dark:hover and a.text-dark:focus are redefined
+    - [ ] a.text-dark:hover and a.text-dark:focus have properties color: #E0003C !important; text-decoration: none;
+    - [ ] .card is redefined
+    - [ ] .card has properties border: 1px solid #E0003C; border-radius: 1rem;
+    - [ ] .card-header is redefined
+    - [ ] .card-header has properties background-color: #E0003C; color: #FFFFFF;
+    - [ ] .card-header:first-child is redefined
+    - [ ] .card-header:first-child has property border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
+    - [ ] .border-bottom is redefined
+    - [ ] .border-bottom has property border-bottom: 1px solid #E0003C!important;
+    - [ ] .text-muted is redefined
+    - [ ] .text-muted has property color: #8c8c8c!important;
     - [ ] Final result is the same as screenshots and GIF
 
     </details>

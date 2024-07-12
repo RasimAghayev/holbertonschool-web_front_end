@@ -429,6 +429,8 @@ From this HTML:
 Build this responsive web page:
 
 ![Alt text](/Bootstrap/image/r2-index.gif?raw=true "Optional Title")
+
+
 ![Alt text](/Bootstrap/image/readme.md.2.png?raw=true "Optional Title")
 
 ### Requirements:
@@ -466,52 +468,28 @@ Behaviors/styles:
     <summary>Please review your task manually with the following checklist</summary>
     
     - [ ] File exists
-
-- [ ] HTML structure is the same as the one provided
-
-- [ ] No extra styling (in-line, in the head and/or a CSS file)
-
-- [ ] header has class border-bottom
-
-- [ ] header has class mb-3 (or m-3)
-
-- [ ] header has class p-2
-
-- [ ] header has class bg-light
-
-- [ ] header ul has class list-inline or d-flex or list-group-horizontal
-
-- [ ] header ul has class mb-0
-
-- [ ] header ul li have class list-inline-item (except if header ul has class d-flex or list-group-horizontal)
-
-- [ ] First header ul li is aligned on the left (has class mr-auto)
-
-- [ ] header ul li img has class rounded
-
-- [ ] Second and last header ul li a have class btn and btn-secondary
-
-- [ ] Second header ul li a has class active
-
-- [ ] Second and last header ul li have class align-self-center (except if header ul has class d-flex or list-group-horizontal)
-
-- [ ] main has class container-fluid
-
-- [ ] First section has the container div with classes alert and alert-info
-
-- [ ] h4 inside the alert has class alert-heading
-
-- [ ] Last p of the alert has class mb-0
-
-- [ ] In the second section, h1 has classes mt-5 and mb-4
-
-- [ ] In the second section, h1 span has classes badge, badge-pill and badge-info
-
-- [ ] div containing table has class table-responsive-lg
-
-- [ ] table has classes table, table-hover and table-dark
-
-- [ ] Final result is the same as screenshots and GIF
-
+    - [ ] HTML structure is the same as the one provided
+    - [ ] No extra styling (in-line, in the head and/or a CSS file)
+    - [ ] header has class border-bottom
+    - [ ] header has class mb-3 (or m-3)
+    - [ ] header has class p-2
+    - [ ] header has class bg-light
+    - [ ] header ul has class list-inline or d-flex or list-group-horizontal
+    - [ ] header ul has class mb-0
+    - [ ] header ul li have class list-inline-item (except if header ul has class d-flex or list-group-horizontal)
+    - [ ] First header ul li is aligned on the left (has class mr-auto)
+    - [ ] header ul li img has class rounded
+    - [ ] Second and last header ul li a have class btn and btn-secondary
+    - [ ] Second header ul li a has class active
+    - [ ] Second and last header ul li have class align-self-center (except if header ul has class d-flex or list-group-horizontal)
+    - [ ] main has class container-fluid
+    - [ ] First section has the container div with classes alert and alert-info
+    - [ ] h4 inside the alert has class alert-heading
+    - [ ] Last p of the alert has class mb-0
+    - [ ] In the second section, h1 has classes mt-5 and mb-4
+    - [ ] In the second section, h1 span has classes badge, badge-pill and badge-info
+    - [ ] div containing table has class table-responsive-lg
+    - [ ] table has classes table, table-hover and table-dark
+    - [ ] Final result is the same as screenshots and GIF
     </details>
 </details>

@@ -22,12 +22,6 @@ Create a function named `welcome`:
 - Run `welcome('Holberton', 'School');` should prompt an alert with this content: `Welcome Holberton School!`
 - `alert(fullName)`, should return a reference error fullName is not defined
 
-Add Bootstrap to reset the CSS styling.
-
-Your final page must look like this:
-
-![Alt text](/Bootstrap/image/readme.md.0.jpg?raw=true "Optional Title")
-
 ### Repo:
 
 - GitHub repository: `holbertonschool-web_front_end`

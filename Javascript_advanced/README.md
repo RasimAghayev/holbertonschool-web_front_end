@@ -34,7 +34,7 @@ Your final page must look like this:
 - Directory: `Javascript_advanced`
 - File: `0-welcome.js`
 
-      <details>
+  <details>
       <summary>Please review your task manually with the following checklist</summary>
 
   - [ ] there is a `README.md` and it is not empty
@@ -52,4 +52,4 @@ Your final page must look like this:
 
   </details>
 
-  </details>
+</details>

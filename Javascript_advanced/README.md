@@ -200,3 +200,64 @@ Should display three alerts like below:
       </details>
 
   </details>
+
+<details>
+  <summary>
+
+## 3. Closure and loops
+
+  </summary>
+
+Write a function named `createClassRoom`:
+
+- It takes into argument `numbersOfStudents` (number)
+- Inside, it contains a function `studentSeat`, that takes into argument `seat` (number) and returns a function that returns the `seat` number
+- After the definition of `studentSeat`, create and populate a variable `students` (array)
+  - Using a loop from 0 to `numbersOfStudents`, pass the number of iteration + 1 to `studentSeat` and add its return value to the `students` array
+- Returns the `students` array
+
+Create a closure classRoom, calling createClassRoom with 10 `students`
+
+Requirements:
+
+Executing the following code:
+
+```javascript
+console.log(classRoom[0]());
+console.log(classRoom[3]());
+console.log(classRoom[9]());
+```
+
+Should return
+
+```shell
+1
+4
+10
+```
+
+### Repo:
+
+- GitHub repository: `holbertonschool-web_front_end`
+- Directory: `Javascript_advanced`
+- File: `3-classrooms.js`
+
+      <details>
+      <summary>Please review your task manually with the following checklist</summary>
+
+      - [ ] File `3-classrooms.js` is present
+      - [ ] in `3-classrooms.js`, there is a function named `createClassRoom`
+      - [ ] in `3-classrooms.js`, the function named `createClassRoom` takes one argument `numberOfStudents`
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a function named `studentSeat`
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` takes one number argument `seat`
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` returns a function that returns the number `seat`
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is an array called `students`
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a loop that loops from 0 to numbersOfStudents
+      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, in the loop that loops from 0 to numbersOfStudents, each iteration of the loop adds an element to the `students` array, the element added is the return value of `studentSeat` when `seat` is the iteration + 1
+      - [ ] in `3-classrooms.js`, the function named `createClassRoom` returns the `students` array
+      - [ ] in `3-classrooms.js`, there is a closure called classRoom, which calls `createClassRoom` with 10 `students` (it should look something like `const classRoom = createClassRoom(10))`
+      - [ ] In your browser, in the developer tools console, paste the contents of `3-classrooms.js`. Execute `const newClassRoom = createClassRoom(16)` and then execute ```newClassRoom[12]()``` The console should return 13.
+
+      </details>
+
+  </details>

@@ -112,31 +112,30 @@ Running the script should display three popups one by one with the text `Welcome
 - GitHub repository: `holbertonschool-web_front_end`
 - Directory: `Javascript_advanced`
 - File: `1-nested_functions.js`
-
-      <details>
+  <details>
       <summary>Please review your task manually with the following checklist</summary>
 
-      - [ ] `1-nested_functions.js` is present
-      - [ ] in `1-nested_functions.js`, there is a variable named `globalVariable` outside the functions
-      - [ ] in `1-nested_functions.js`, the global variable named `globalVariable` is a string `Welcome`
-      - [ ] in `1-nested_functions.js`, there is a function named `outer`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, there is an alert with the content of `globalVariable`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, there is a variable named `course`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, the variable named `course` is a string `Holberton`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, there is a function named `inner`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is an alert with the contents of `globalVariable` and `course`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a variable named `exclamation`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, the variable named `exclamation` is a string `!`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a function named `inception`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, in the function named `inception`, there is an alert with the contents of `globalVariable`, `course`, and `exclamation`
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, after the `inception` function, `inception` is called
-      - [ ] in `1-nested_functions.js`, in the function named `outer`, after the function named `inner`, `inner` is called
-      - [ ] in `1-nested_functions.js`, after the `outer` function, `outer` is called
-      - [ ] In your browser, in the developer tools console, paste the contents of `1-nested_functions.js` and press Enter. A popup with the text `Welcome` appears
-      - [ ] After the `Welcome` alert, there is a `Welcome Holberton` alert
-      - [ ] after the `Welcome Holberton` alert, there is a `Welcome Holberton!` alert
+- [ ] `1-nested_functions.js` is present
+- [ ] in `1-nested_functions.js`, there is a variable named `globalVariable` outside the functions
+- [ ] in `1-nested_functions.js`, the global variable named `globalVariable` is a string `Welcome`
+- [ ] in `1-nested_functions.js`, there is a function named `outer`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, there is an alert with the content of `globalVariable`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, there is a variable named `course`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, the variable named `course` is a string `Holberton`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, there is a function named `inner`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is an alert with the contents of `globalVariable` and `course`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a variable named `exclamation`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, the variable named `exclamation` is a string `!`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a function named `inception`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, in the function named `inception`, there is an alert with the contents of `globalVariable`, `course`, and `exclamation`
+- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, after the `inception` function, `inception` is called
+- [ ] in `1-nested_functions.js`, in the function named `outer`, after the function named `inner`, `inner` is called
+- [ ] in `1-nested_functions.js`, after the `outer` function, `outer` is called
+- [ ] In your browser, in the developer tools console, paste the contents of `1-nested_functions.js` and press Enter. A popup with the text `Welcome` appears
+- [ ] After the `Welcome` alert, there is a `Welcome Holberton` alert
+- [ ] after the `Welcome Holberton` alert, there is a `Welcome Holberton!` alert
 
-      </details>
+  </details>
 
   </details>
 

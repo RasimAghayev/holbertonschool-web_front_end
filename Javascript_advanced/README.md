@@ -260,3 +260,157 @@ Should return
   </details>
 
 </details>
+
+<details>
+  <summary>
+
+## 4. Complex Closure
+
+  </summary>
+
+Create a function `divideBy`:
+
+- It takes into argument `firstNumber` (number)
+- It returns a function that takes into argument `secondNumber` (number)
+- It returns the second number divided by the first number
+
+Create a function `addBy`:
+
+- It takes into argument `firstNumber` (number)
+- It returns a function that takes into argument `secondNumber` (number)
+  - It returns the sum of the two numbers
+
+Create four closures:
+
+- `addBy100`, that uses the function `addBy` with the number 100
+- `addBy1000`, that uses the function `addBy` with the number 1000
+- `divideBy10`, that uses the function `divideBy` with the number 10
+- `divideBy100`, that uses the function `divideBy` with the number 100
+
+### Requirements:
+
+Executing the following code:
+
+```javascript
+console.log(addBy100(20));
+console.log(divideBy10(20));
+console.log(divideBy100(200));
+console.log(addBy1000(20));
+```
+
+Should display in the console:
+
+```shell
+120
+2
+2
+1020
+```
+
+### Repo:
+
+- GitHub repository: `holbertonschool-web_front_end`
+- Directory: `Javascript_advanced`
+- File: `4-math.js`
+
+  <details>
+      <summary>Please review your task manually with the following checklist</summary>
+
+  - [ ] File `4-math.js` is present
+  - [ ] in `4-math.js`, there is a function named `divideBy`
+  - [ ] in `4-math.js`, the function named `divideBy` takes a number argument `firstNumber`
+  - [ ] in `4-math.js`, the function named `divideBy` returns a function that takes a number argument `secondNumber`
+  - [ ] in `4-math.js`, in the function named `divideBy`, the function inside returns the `secondNumber` divided by `firstNumber`
+  - [ ] in `4-math.js`, there is a function `addBy`
+  - [ ] in `4-math.js`, the function `addBy` takes one number argument `firstNumber`
+  - [ ] in `4-math.js`, the function `addBy` returns a function that takes a number argument `secondNumber`
+  - [ ] in `4-math.js`, in the function `addBy`, the function inside returns the sum of `firstNumber` + `secondNumber`
+  - [ ] in `4-math.js`, there is a closure named `addBy100`, it looks something like `const addBy100 = addBy(100)`
+  - [ ] in `4-math.js`, there is a closure named `addBy1000`, it looks something like `const addBy1000 = addBy(1000)`
+  - [ ] in `4-math.js`, there is a closure named `divideBy10`, it looks something like `const divideBy10 = divideBy(10)`
+  - [ ] in `4-math.js`, there is a closure named `divideBy100`, it looks something like `const divideBy100 = divideBy(100)`
+  - [ ] In your browser, in the developer tools console, paste the contents of `4-math.js`. Executing `addBy100(101)` returns `201`
+  - [ ] In your browser, in the developer tools console, executing `addBy1000(234)` returns `1234`
+  - [ ] In your browser, in the developer tools console, executing `divideBy10(200)` returns `20`
+  - [ ] In your browser, in the developer tools console, executing `divideBy100(200)` returns `2`
+
+  </details>
+
+</details>
+
+<details>
+  <summary>
+
+## 4. Complex Closure
+
+  </summary>
+
+Create a function `divideBy`:
+
+- It takes into argument `firstNumber` (number)
+- It returns a function that takes into argument `secondNumber` (number)
+- It returns the second number divided by the first number
+
+Create a function `addBy`:
+
+- It takes into argument `firstNumber` (number)
+- It returns a function that takes into argument `secondNumber` (number)
+  - It returns the sum of the two numbers
+
+Create four closures:
+
+- `addBy100`, that uses the function `addBy` with the number 100
+- `addBy1000`, that uses the function `addBy` with the number 1000
+- `divideBy10`, that uses the function `divideBy` with the number 10
+- `divideBy100`, that uses the function `divideBy` with the number 100
+
+### Requirements:
+
+Executing the following code:
+
+```javascript
+console.log(addBy100(20));
+console.log(divideBy10(20));
+console.log(divideBy100(200));
+console.log(addBy1000(20));
+```
+
+Should display in the console:
+
+```shell
+120
+2
+2
+1020
+```
+
+### Repo:
+
+- GitHub repository: `holbertonschool-web_front_end`
+- Directory: `Javascript_advanced`
+- File: `4-math.js`
+
+  <details>
+      <summary>Please review your task manually with the following checklist</summary>
+
+  - [ ] File `4-math.js` is present
+  - [ ] in `4-math.js`, there is a function named `divideBy`
+  - [ ] in `4-math.js`, the function named `divideBy` takes a number argument `firstNumber`
+  - [ ] in `4-math.js`, the function named `divideBy` returns a function that takes a number argument `secondNumber`
+  - [ ] in `4-math.js`, in the function named `divideBy`, the function inside returns the `secondNumber` divided by `firstNumber`
+  - [ ] in `4-math.js`, there is a function `addBy`
+  - [ ] in `4-math.js`, the function `addBy` takes one number argument `firstNumber`
+  - [ ] in `4-math.js`, the function `addBy` returns a function that takes a number argument `secondNumber`
+  - [ ] in `4-math.js`, in the function `addBy`, the function inside returns the sum of `firstNumber` + `secondNumber`
+  - [ ] in `4-math.js`, there is a closure named `addBy100`, it looks something like `const addBy100 = addBy(100)`
+  - [ ] in `4-math.js`, there is a closure named `addBy1000`, it looks something like `const addBy1000 = addBy(1000)`
+  - [ ] in `4-math.js`, there is a closure named `divideBy10`, it looks something like `const divideBy10 = divideBy(10)`
+  - [ ] in `4-math.js`, there is a closure named `divideBy100`, it looks something like `const divideBy100 = divideBy(100)`
+  - [ ] In your browser, in the developer tools console, paste the contents of `4-math.js`. Executing `addBy100(101)` returns `201`
+  - [ ] In your browser, in the developer tools console, executing `addBy1000(234)` returns `1234`
+  - [ ] In your browser, in the developer tools console, executing `divideBy10(200)` returns `20`
+  - [ ] In your browser, in the developer tools console, executing `divideBy100(200)` returns `2`
+
+  </details>
+
+</details>

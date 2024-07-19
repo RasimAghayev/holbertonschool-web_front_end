@@ -115,25 +115,25 @@ Running the script should display three popups one by one with the text `Welcome
   <details>
       <summary>Please review your task manually with the following checklist</summary>
 
-- [ ] `1-nested_functions.js` is present
-- [ ] in `1-nested_functions.js`, there is a variable named `globalVariable` outside the functions
-- [ ] in `1-nested_functions.js`, the global variable named `globalVariable` is a string `Welcome`
-- [ ] in `1-nested_functions.js`, there is a function named `outer`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, there is an alert with the content of `globalVariable`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, there is a variable named `course`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, the variable named `course` is a string `Holberton`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, there is a function named `inner`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is an alert with the contents of `globalVariable` and `course`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a variable named `exclamation`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, the variable named `exclamation` is a string `!`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a function named `inception`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, in the function named `inception`, there is an alert with the contents of `globalVariable`, `course`, and `exclamation`
-- [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, after the `inception` function, `inception` is called
-- [ ] in `1-nested_functions.js`, in the function named `outer`, after the function named `inner`, `inner` is called
-- [ ] in `1-nested_functions.js`, after the `outer` function, `outer` is called
-- [ ] In your browser, in the developer tools console, paste the contents of `1-nested_functions.js` and press Enter. A popup with the text `Welcome` appears
-- [ ] After the `Welcome` alert, there is a `Welcome Holberton` alert
-- [ ] after the `Welcome Holberton` alert, there is a `Welcome Holberton!` alert
+  - [ ] `1-nested_functions.js` is present
+  - [ ] in `1-nested_functions.js`, there is a variable named `globalVariable` outside the functions
+  - [ ] in `1-nested_functions.js`, the global variable named `globalVariable` is a string `Welcome`
+  - [ ] in `1-nested_functions.js`, there is a function named `outer`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, there is an alert with the content of `globalVariable`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, there is a variable named `course`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, the variable named `course` is a string `Holberton`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, there is a function named `inner`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is an alert with the contents of `globalVariable` and `course`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a variable named `exclamation`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, the variable named `exclamation` is a string `!`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, there is a function named `inception`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, in the function named `inception`, there is an alert with the contents of `globalVariable`, `course`, and `exclamation`
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, in the function named `inner`, after the `inception` function, `inception` is called
+  - [ ] in `1-nested_functions.js`, in the function named `outer`, after the function named `inner`, `inner` is called
+  - [ ] in `1-nested_functions.js`, after the `outer` function, `outer` is called
+  - [ ] In your browser, in the developer tools console, paste the contents of `1-nested_functions.js` and press Enter. A popup with the text `Welcome` appears
+  - [ ] After the `Welcome` alert, there is a `Welcome Holberton` alert
+  - [ ] after the `Welcome Holberton` alert, there is a `Welcome Holberton!` alert
 
   </details>
 
@@ -179,24 +179,24 @@ Should display three alerts like below:
 - Directory: `Javascript_advanced`
 - File: `2-function_me.js`
 
-      <details>
+  <details>
       <summary>Please review your task manually with the following checklist</summary>
 
-      - [ ] `2-function_me.js` is present
-      - [ ] in `2-function_me.js`, there is a function named `welcomeMessage`
-      - [ ] in `2-function_me.js`, the function named `welcomeMessage` accepts one argument `fullName`
-      - [ ] in `2-function_me.js`, the function named `welcomeMessage` returns a function (closure) that alerts `Welcome` + the variable `fullName`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `guillaume`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `alex`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `fred`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `guillaume` calls `welcomeMessage` with argument `Guillaume`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `alex` calls `welcomeMessage` with argument `Alex`
-      - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `fred` calls `welcomeMessage` with argument `Fred`
-      - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `guillaume()`. An alert with `Welcome Guillaume` is displayed.
-      - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `alex()`. An alert with `Welcome Alex` is displayed.
-      - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `fred()`. An alert with `Welcome Fred` is displayed.
+  - [ ] `2-function_me.js` is present
+  - [ ] in `2-function_me.js`, there is a function named `welcomeMessage`
+  - [ ] in `2-function_me.js`, the function named `welcomeMessage` accepts one argument `fullName`
+  - [ ] in `2-function_me.js`, the function named `welcomeMessage` returns a function (closure) that alerts `Welcome` + the variable `fullName`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `guillaume`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `alex`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, there is a variable named `fred`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `guillaume` calls `welcomeMessage` with argument `Guillaume`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `alex` calls `welcomeMessage` with argument `Alex`
+  - [ ] in `2-function_me.js`, after the function `welcomeMessage`, the variable named `fred` calls `welcomeMessage` with argument `Fred`
+  - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `guillaume()`. An alert with `Welcome Guillaume` is displayed.
+  - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `alex()`. An alert with `Welcome Alex` is displayed.
+  - [ ] In your browser, in the developer tools console, paste the contents of `2-function_me.js`. Execute `fred()`. An alert with `Welcome Fred` is displayed.
 
-      </details>
+  </details>
 
   </details>
 
@@ -241,22 +241,22 @@ Should return
 - Directory: `Javascript_advanced`
 - File: `3-classrooms.js`
 
-      <details>
+  <details>
       <summary>Please review your task manually with the following checklist</summary>
 
-      - [ ] File `3-classrooms.js` is present
-      - [ ] in `3-classrooms.js`, there is a function named `createClassRoom`
-      - [ ] in `3-classrooms.js`, the function named `createClassRoom` takes one argument `numberOfStudents`
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a function named `studentSeat`
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` takes one number argument `seat`
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` returns a function that returns the number `seat`
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is an array called `students`
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a loop that loops from 0 to numbersOfStudents
-      - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, in the loop that loops from 0 to numbersOfStudents, each iteration of the loop adds an element to the `students` array, the element added is the return value of `studentSeat` when `seat` is the iteration + 1
-      - [ ] in `3-classrooms.js`, the function named `createClassRoom` returns the `students` array
-      - [ ] in `3-classrooms.js`, there is a closure called classRoom, which calls `createClassRoom` with 10 `students` (it should look something like `const classRoom = createClassRoom(10))`
-      - [ ] In your browser, in the developer tools console, paste the contents of `3-classrooms.js`. Execute `const newClassRoom = createClassRoom(16)` and then execute ```newClassRoom[12]()``` The console should return 13.
-
-      </details>
+  - [ ] File `3-classrooms.js` is present
+  - [ ] in `3-classrooms.js`, there is a function named `createClassRoom`
+  - [ ] in `3-classrooms.js`, the function named `createClassRoom` takes one argument `numberOfStudents`
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a function named `studentSeat`
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` takes one number argument `seat`
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, the function named `studentSeat` returns a function that returns the number `seat`
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is an array called `students`
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, there is a loop that loops from 0 to numbersOfStudents
+  - [ ] in `3-classrooms.js`, in the function named `createClassRoom`, in the loop that loops from 0 to numbersOfStudents, each iteration of the loop adds an element to the `students` array, the element added is the return value of `studentSeat` when `seat` is the iteration + 1
+  - [ ] in `3-classrooms.js`, the function named `createClassRoom` returns the `students` array
+  - [ ] in `3-classrooms.js`, there is a closure called classRoom, which calls `createClassRoom` with 10 `students` (it should look something like `const classRoom = createClassRoom(10))`
+  - [ ] In your browser, in the developer tools console, paste the contents of `3-classrooms.js`. Execute `const newClassRoom = createClassRoom(16)` and then execute `newClassRoom[12]()` The console should return 13.
 
   </details>
+
+</details>

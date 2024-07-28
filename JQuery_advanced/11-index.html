@@ -48,7 +48,7 @@
             }
             $.ajax({
                 type: "POST",
-                data: data,
+                data: JSON.stringify(data),
                 url: "http://localhost:3000/posts",
                 success: (res) => addPostRow(res),
             }).fail(() => console.log("Error sending the POST query"))

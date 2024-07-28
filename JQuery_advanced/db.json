@@ -1,26 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "title": "fd",
-      "author": "fffff",
-      "id": "2"
-    },
-    {
-      "title": "fd",
-      "author": "fffff",
-      "id": "3"
-    },
-    {
-      "title": "f",
-      "author": "f",
-      "id": "4"
-    },
-    {
       "title": "",
       "author": "",
       "id": "5"

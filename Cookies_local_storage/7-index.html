@@ -10,7 +10,7 @@
 <body>
   <script type="application/javascript">
     const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
-    if (typeof (sessionStorage) === 'undefined') {
+    if (typeof (sessionStorage) === 'undefined' || !window.sessionStorage) {
       alert('Sorry, your browser does not support Web storage. Try again with a better one');
     }
     function getCartFromStorage() {
@@ -22,6 +22,7 @@
       } else {
         sessionStorage[item] = 1;
       }
+    //   sessionStorage[item]=sessionStorage[item]?parseInt(sessionStorage[item])+1:1;
       displayCart();
     }
     function removeItemfromCart(item) {
